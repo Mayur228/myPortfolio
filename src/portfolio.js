@@ -33,6 +33,7 @@ const socialMediaLinks = {
   github: "https://github.com/Mayur228",
   linkedin: "https://www.linkedin.com/in/mayursinh-parmar/",
   gmail: "mayurshih001.mp@gmail.com",
+  instagram:"https://www.instagram.com/the_app_maker_buddy",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -73,7 +74,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [],
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
