@@ -147,32 +147,20 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/movie_mingle.png"),
+      projectName: "Movie Mingle",
+      projectDesc: "Welcome to Movie Mingle your go-to destination for all things movies and TV shows! Dive into a world of cinematic wonders with detailed cast information, gripping plot summaries, and real-time ratings. Whether you're into blockbusters or hidden gems, our user-friendly platform ensures an immersive and effortless entertainment experience. Elevate your viewing choices and stay in the know with Movie Mingle.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github Source",
+          url: "https://github.com/Mayur228/Movie-Mingle"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
