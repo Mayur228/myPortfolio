@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Mayursinh Parmar",
   title: "Hi all, I'm Mayursinh",
-  subTitle: emoji("I'm a 📱 mobile developer with four years of experience and a passionate for creating amazing apps.My goal is to create apps 🙌 that are both efficient and user-friendly, and that make a difference in people's lives."),
+  subTitle: emoji("Welcome to my personal website. This website is my canvas, where I've painted a picture of my educational pursuits, career milestones, skills, and the passion projects that define my journey.I'm a 📱 mobile developer with four years of experience and a passionate for creating amazing apps."),
   resumeLink:"https://drive.google.com/file/d/1O8Cjy73a7oT81KSPzAu_xDh--4sRWvFc/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
