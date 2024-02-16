@@ -147,7 +147,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Projects and POC",
   projects: [
     {
       image: require("./assets/images/movie_mingle.png"),
@@ -161,6 +161,30 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/koin_logo.png"),
+      projectName: "Koin Demo",
+      projectDesc: "🚀 Step into the future of Android development with my latest demo app! This showcase combines the power of Koin for dependency injection, Jetpack Compose for a sleek UI, and MVVM pattern with Retrofit for efficient API calls. Witness the seamless integration of these technologies, creating a responsive, modular, and scalable Android experience.Elevate your coding journey with simplicity and sophistication. Happy exploring! 🌟",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/KoinDemo"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/pigeon_lib.png"),
+      projectName: "Pigeon Demo",
+      projectDesc: "🐦 Flutter into streamlined communication with my Pigeon library demo! This showcase highlights the seamless integration of Pigeon, enhancing the connection between Dart and native code in Flutter apps. Explore simplified method calls and data transfer, providing a fluid and efficient bridge. Elevate your Flutter development with the simplicity and effectiveness of Pigeon. Happy coding! 🌟",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/pigeon_demo"
+        }
+        //  you can add extra buttons here.
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
