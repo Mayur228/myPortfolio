@@ -150,6 +150,30 @@ const bigProjects = {
   title: "Projects and POC",
   projects: [
     {
+      image: require("./assets/images/widgetclock.webp"),
+      projectName: "Android 12 Analog Clock Widget",
+      projectDesc: "Android 12 Analog & Digital Clock Widget application give you support of android 12 based new material design look cool and latest widget clock on you mobile device without android 12 update needed.",
+      footerLink: [
+        {
+          name: "PlayStore",
+          url: "https://play.google.com/store/apps/details?id=com.firepost.app&hl=en_IN&gl=US"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/firepost.webp"),
+      projectName: "Firepost",
+      projectDesc: "Fire Post is a social activity platform where you can post and find your routine requirements and Increase your local community network.This platform links you with people nearby who have similar interests.For the first time in the world of social media, we bring a social networking platform directly on a navigable map.",
+      footerLink: [
+        {
+          name: "PlayStore",
+          url: "https://play.google.com/store/apps/details?id=com.firepost.app&hl=en_IN&gl=US"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/movie_mingle.png"),
       projectName: "Movie Mingle",
       projectDesc: "Welcome to Movie Mingle your go-to destination for all things movies and TV shows! Dive into a world of cinematic wonders with detailed cast information, gripping plot summaries, and real-time ratings. Whether you're into blockbusters or hidden gems, our user-friendly platform ensures an immersive and effortless entertainment experience. Elevate your viewing choices and stay in the know with Movie Mingle.",
@@ -189,31 +213,6 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
-const achievementSection = {
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Blogs Section
-
-const blogSection = {
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  display: false // Set false to hide this section, defaults to true
-};
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -222,12 +221,6 @@ const contactInfo = {
   email_address: "mayurshih001.mp@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
-};
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -242,11 +235,6 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable
 };
