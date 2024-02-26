@@ -174,6 +174,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/chitchat_hub.png"),
+      projectName: "ChitChat Hub",
+      projectDesc: "ChitChat Hub is a dynamic and user-friendly chat application designed to connect people seamlessly. With its intuitive interface, ChitChat Hub allows users to engage in real-time conversations, share multimedia content, and stay connected with friends and family. Whether it's individual or group chats, the app offers a vibrant platform for lively discussions. Embrace the joy of communication",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/ChatApp"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/movie_mingle.png"),
       projectName: "Movie Mingle",
       projectDesc: "Welcome to Movie Mingle your go-to destination for all things movies and TV shows! Dive into a world of cinematic wonders with detailed cast information, gripping plot summaries, and real-time ratings. Whether you're into blockbusters or hidden gems, our user-friendly platform ensures an immersive and effortless entertainment experience. Elevate your viewing choices and stay in the know with Movie Mingle.",
