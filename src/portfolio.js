@@ -186,6 +186,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/backend.png"),
+      projectName: "ChitChat Hub Backend",
+      projectDesc: "ChitChat Hub Backend: Ktor & MongoDB-powered solution with WebSocket for real-time messaging. Seamless authentication, robust storage, scalable architecture.",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/chitchat-hub-server"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/movie_mingle.png"),
       projectName: "Movie Mingle",
       projectDesc: "Welcome to Movie Mingle your go-to destination for all things movies and TV shows! Dive into a world of cinematic wonders with detailed cast information, gripping plot summaries, and real-time ratings. Whether you're into blockbusters or hidden gems, our user-friendly platform ensures an immersive and effortless entertainment experience. Elevate your viewing choices and stay in the know with Movie Mingle.",
