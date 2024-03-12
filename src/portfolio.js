@@ -34,6 +34,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mayursinh-parmar/",
   gmail: "mayurshih001.mp@gmail.com",
   instagram:"https://www.instagram.com/the_app_maker_buddy",
+  medium: "https://medium.com/@mayurshih001.mp",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
