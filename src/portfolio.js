@@ -220,6 +220,18 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },
+    {
+      image: require("./assets/images/newshub_icon.png"),
+      projectName: "Newshub",
+      projectDesc: "Introducing Newshub, your go-to destination for staying updated with the latest news and trends from around the world. Powered by cutting-edge technology and designed with user convenience in mind, Newshub delivers a seamless news browsing experience like never before.",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/newshub"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
