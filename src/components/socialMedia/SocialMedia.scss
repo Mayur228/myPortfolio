@@ -68,6 +68,14 @@
   background-color: $instagram;
 }
 
+.hashnode i {
+  background-color: $hashnode;
+}
+
+.youtube i {
+  background-color: $youtube;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -78,7 +86,9 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
-.medium i:hover {
+.medium i:hover,
+.hashnode i:hover,
+.youtube i:hover {
   background-color: $textColor;
 }
 

@@ -34,6 +34,9 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/mayursinh-parmar/",
   gmail: "mayurshih001.mp@gmail.com",
   instagram:"https://www.instagram.com/the_app_maker_buddy",
+  hashnode: "https://mayursinhdevblog.hashnode.dev/",
+  youtube: "https://www.youtube.com/@Theappmakerbuddy",
+  twitter: "https://twitter.com/app_maker_buddy",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -181,6 +184,18 @@ const bigProjects = {
         {
           name: "Github Source",
           url: "https://github.com/Mayur228/ChatApp"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/backend.png"),
+      projectName: "ChitChat Hub Backend",
+      projectDesc: "ChitChat Hub Backend: Ktor & MongoDB-powered solution with WebSocket for real-time messaging. Seamless authentication, robust storage, scalable architecture.",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/chitchat-hub-server"
         }
         //  you can add extra buttons here.
       ]

@@ -92,17 +92,30 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
+      {socialMediaLinks.hashnode ? (
         <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
+          href={socialMediaLinks.hashnode}
+          className="icon-button hashnode"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <i class="fab fa-blogger-b"></i>
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-youtube"></i>
+          <span></span>
+        </a>
+      ) : null}
+
 
       {socialMediaLinks.stackoverflow ? (
         <a
