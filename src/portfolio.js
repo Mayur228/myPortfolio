@@ -1,9 +1,5 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/first"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/first";
 
 // Splash Screen
 
@@ -23,8 +19,8 @@ const greeting = {
   username: "The App Maker Buddy",
   title: "Hi all, I'm Mayursinh",
   subTitle: emoji("Welcome to my personal website. This website is my canvas, where I've painted a picture of my educational pursuits, career milestones, skills, and the passion projects that define my journey.I'm a 📱 mobile developer with four years of experience and a passionate for creating amazing apps."),
-  resumeLink:"https://drive.google.com/file/d/1O8Cjy73a7oT81KSPzAu_xDh--4sRWvFc/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink:"https://drive.google.com/file/d/1O8Cjy73a7oT81KSPzAu_xDh--4sRWvFc/view?usp=sharing",
+  displayGreeting: true 
 };
 
 // Social Media Links
@@ -37,20 +33,14 @@ const socialMediaLinks = {
   hashnode: "https://mayursinhdevblog.hashnode.dev/",
   youtube: "https://www.youtube.com/@Theappmakerbuddy",
   twitter: "https://twitter.com/app_maker_buddy",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY Mobile DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "So Baiscally I am Mobile developer (Android + Flutter). Also I write some blogs about Mobile development. And post some insights and tips about Mobile development on Instagram and YouTube. ",
   skills: [
     emoji("My Skills as an Android Developer💡"),
     emoji("🔸 Programming languages: Java | Kotlin"),
@@ -100,24 +90,6 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Android", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Flutter",
-      progressPercentage: "70%"
-    },
-    
-  ],
-  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
 // Work experience section
 
 const workExperiences = {
@@ -159,7 +131,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "PlayStore",
-          url: "https://play.google.com/store/apps/details?id=com.firepost.app&hl=en_IN&gl=US"
+          url: "https://play.google.com/store/apps/details?id=androidclockwidget.analogclockwidget.androiddigitalclockwidget&hl=en_IN&gl=US"
         }
         //  you can add extra buttons here.
       ]
@@ -213,6 +185,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/github_browser.png"),
+      projectName: "Github Browser",
+      projectDesc: "Introducing Github Browser, your go-to tool for exploring code repositories on GitHub! With Github Browser, easily search for repositories, check out commits, and move through branches smoothly. But wait, there's more! Customize your coding experience by saving your preferred repositories to a special list for easy access. Start exploring the world of open-source projects with Github Browser today!",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/github-browser-mvvm"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/koin_logo.png"),
       projectName: "Koin Demo",
       projectDesc: "🚀 Step into the future of Android development with my latest demo app! This showcase combines the power of Koin for dependency injection, Jetpack Compose for a sleek UI, and MVVM pattern with Retrofit for efficient API calls. Witness the seamless integration of these technologies, creating a responsive, modular, and scalable Android experience.Elevate your coding journey with simplicity and sophistication. Happy exploring! 🌟",
@@ -247,7 +231,19 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    }
+    },
+    {
+      image: require("./assets/images/pokepedia_logo.png"),
+      projectName: "Pokepedia",
+      projectDesc: "Welcome to Pokepedia, the ultimate destination for Pokémon enthusiasts! 🎉 With a blend of sleek design, powerful technology, and comprehensive features, Pokepedia is your passport to the exciting world of Pokémon! 🚀",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/pokepedia"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -270,7 +266,6 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   openSource,
   bigProjects,
