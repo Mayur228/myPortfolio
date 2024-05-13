@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.787aa124.css",
-    "main.js": "/myPortfolio/static/js/main.a0572087.js",
+    "main.css": "/myPortfolio/static/css/main.59850f10.css",
+    "main.js": "/myPortfolio/static/js/main.36a90089.js",
     "static/css/64.bba8fa55.chunk.css": "/myPortfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/myPortfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/myPortfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.6591e9e5.chunk.js": "/myPortfolio/static/js/769.6591e9e5.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/myPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/pokepedia_logo.png": "/myPortfolio/static/media/pokepedia_logo.4ec03afff55bd3941a5e.png",
     "static/media/widgetclock.webp": "/myPortfolio/static/media/widgetclock.3b46cbaa129cec4c1654.webp",
     "static/media/manOnTable.svg": "/myPortfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/be.jpg": "/myPortfolio/static/media/be.a0d09ea4757304b011b9.jpg",
@@ -21,17 +22,17 @@
     "static/media/backend.png": "/myPortfolio/static/media/backend.faf47c30539965ca7316.png",
     "static/media/newshub_icon.png": "/myPortfolio/static/media/newshub_icon.dca6b7795907c6c780c0.png",
     "static/media/pigeon_lib.png": "/myPortfolio/static/media/pigeon_lib.78aecab882864dd582c3.png",
-    "static/media/skill.svg": "/myPortfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/github_browser.png": "/myPortfolio/static/media/github_browser.9ee00a41ae72adc33c88.png",
     "index.html": "/myPortfolio/index.html",
-    "main.787aa124.css.map": "/myPortfolio/static/css/main.787aa124.css.map",
-    "main.a0572087.js.map": "/myPortfolio/static/js/main.a0572087.js.map",
+    "main.59850f10.css.map": "/myPortfolio/static/css/main.59850f10.css.map",
+    "main.36a90089.js.map": "/myPortfolio/static/js/main.36a90089.js.map",
     "64.bba8fa55.chunk.css.map": "/myPortfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/myPortfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/myPortfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.6591e9e5.chunk.js.map": "/myPortfolio/static/js/769.6591e9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.787aa124.css",
-    "static/js/main.a0572087.js"
+    "static/css/main.59850f10.css",
+    "static/js/main.36a90089.js"
   ]
 }

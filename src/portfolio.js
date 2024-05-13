@@ -185,6 +185,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/recipe _app.png"),
+      projectName: "Recipe Discover",
+      projectDesc: "Recipe Discover is a recipe app designed to help users explore a vast collection of recipes conveniently. With Recipe Discover, users can browse recipes by category, search for specific recipes, and save their favorite recipes for easy access.",
+      footerLink: [
+        {
+          name: "Github Source",
+          url: "https://github.com/Mayur228/Recipe-App"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/github_browser.png"),
       projectName: "Github Browser",
       projectDesc: "Introducing Github Browser, your go-to tool for exploring code repositories on GitHub! With Github Browser, easily search for repositories, check out commits, and move through branches smoothly. But wait, there's more! Customize your coding experience by saving your preferred repositories to a special list for easy access. Start exploring the world of open-source projects with Github Browser today!",
