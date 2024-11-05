@@ -17,7 +17,7 @@ const illustration = {
 
 const greeting = {
   username: "App Sensei",
-  title: "Hi all, I'm Mayursinh",
+  title: "Hey there, I'm Mayursinh",
   subTitle: emoji("Welcome to my personal website. This website is my canvas, where I've painted a picture of my educational pursuits, career milestones, skills, and the passion projects that define my journey.I'm a 📱 mobile developer with four years of experience and a passionate for creating amazing apps."),
   resumeLink:"https://drive.google.com/file/d/1QPsAam7cSll6j0_j1DZhNAw7yIYLLxML/view?usp=drive_link",
   displayGreeting: true 
@@ -360,10 +360,10 @@ const myOfficeProjects = {
       projectName: "Service Provider App ",
       projectDesc: "This app helps users find nearby service providers for all types of home repairs. Whether it's plumbing, electrical work, or other home maintenance needs, users can easily browse local professionals and connect with them directly. The app also includes a chat feature, allowing users to discuss details and get quick answers before booking.",
       footerLink: [
-        // {
-        //   name: "PlayStore",
-        //   url: "https://play.google.com/store/apps/details?id=androidclockwidget.analogclockwidget.androiddigitalclockwidget&hl=en_IN&gl=US"
-        // }
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
         //  you can add extra buttons here.
       ]
     },
@@ -372,10 +372,10 @@ const myOfficeProjects = {
       projectName: "Sticker App ",
       projectDesc: "This app lets users create and customize their own stickers for WhatsApp. Users can design unique stickers, add them to WhatsApp as a sticker pack, and share with friends. It’s easy to use and makes messaging more fun and personal!",
       footerLink: [
-        // {
-        //   name: "PlayStore",
-        //   url: "https://play.google.com/store/apps/details?id=androidclockwidget.analogclockwidget.androiddigitalclockwidget&hl=en_IN&gl=US"
-        // }
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
         //  you can add extra buttons here.
       ]
     },
