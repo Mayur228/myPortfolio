@@ -16,10 +16,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "The App Maker Buddy",
+  username: "App Sensei",
   title: "Hi all, I'm Mayursinh",
   subTitle: emoji("Welcome to my personal website. This website is my canvas, where I've painted a picture of my educational pursuits, career milestones, skills, and the passion projects that define my journey.I'm a 📱 mobile developer with four years of experience and a passionate for creating amazing apps."),
-  resumeLink:"https://drive.google.com/file/d/1O8Cjy73a7oT81KSPzAu_xDh--4sRWvFc/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/1QPsAam7cSll6j0_j1DZhNAw7yIYLLxML/view?usp=drive_link",
   displayGreeting: true 
 };
 
@@ -65,8 +65,26 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
+  softwareSkills:[],
 
-  softwareSkills: [],
+  // softwareSkills: [
+  //   {
+  //     skillName: "android",
+  //     fontAwesomeClassname: "fab fa-android"
+  //   },
+  //   {
+  //     skillName: "android",
+  //     fontAwesomeClassname: "fab fa-kotlin"
+  //   },
+  //   {
+  //     skillName: "android",
+  //     fontAwesomeClassname: "fab fa-android"
+  //   },
+  //   {
+  //     skillName: "android",
+  //     fontAwesomeClassname: "fab fa-android"
+  //   }
+  // ],
   display: true, // Set false to hide this section, defaults to true
 };
 
@@ -260,6 +278,112 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Some My Office projects
+
+const myOfficeProjects = {
+  title: "My Office Projects",
+  officeProjects: [
+    {
+      image: require("./assets/images/knoxpo_logo.jpeg"),
+      projectName: "Agritech App",
+      projectDesc: "Agritech App helps people easily check up-to-date market prices for crops, added directly by farmers and commission agents. Users can connect with each other instantly through real-time chat or direct calls. With one click, they can also share full-screen market reports as photos on social media.",
+      footerLink: [
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/knoxpo_logo.jpeg"),
+      projectName: "Video Making App",
+      projectDesc: "This app lets people create fun short videos and challenge their friends to make similar videos! Users can film creative content, set up challenges, and invite friends to join in. The app makes it easy to share videos and keep the fun going with friends. Perfect for those who love showing off their skills, trying new trends, and connecting through challenges!",
+      footerLink: [
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/knoxpo_logo.jpeg"),
+      projectName: "Bill Payment App",
+      projectDesc: "This app makes managing finances easy by helping users pay credit card bills, check their credit score, and pay off loans all in one place. With simple tools to track and improve financial health, users can stay on top of payments, monitor their credit score, and handle loan payment seamlessly. It’s a one-stop solution for better financial control and peace of mind!",
+      footerLink: [
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/knoxpo_logo.jpeg"),
+      projectName: "Cricket Scoring App ",
+      projectDesc: "This App keeps cricket fans updated with the latest match scores, news, and player stats. Users can follow live matches, check detailed scorecards, and stay informed about upcoming games and tournaments. The app provides easy access to match highlights, team rankings, and player profiles, making it perfect for all cricket lovers who want to stay connected to the game anytime, anywhere!",
+      footerLink: [
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/knoxpo_logo.jpeg"),
+      projectName: "Medical App ",
+      projectDesc: "This app helps users find doctors based on their location and specific medical conditions. Users can search for doctors nearby, view profiles, and connect directly through video calls or chat. It makes getting medical advice easy and convenient, allowing users to quickly connect with the right doctor for their needs, anytime, from anywhere.",
+      footerLink: [
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/icanstudioz_logo.jpeg"),
+      projectName: "Taxi App ",
+      projectDesc: "This app makes booking a taxi quick and easy. Users can find and book drivers nearby, make payments securely within the app, and chat directly with their driver for updates or assistance. It’s a simple way to get a ride whenever you need it, all in one app!",
+      footerLink: [
+        {
+          name: "Contact Me For more details",
+          url: ""
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/icanstudioz_logo.jpeg"),
+      projectName: "Service Provider App ",
+      projectDesc: "This app helps users find nearby service providers for all types of home repairs. Whether it's plumbing, electrical work, or other home maintenance needs, users can easily browse local professionals and connect with them directly. The app also includes a chat feature, allowing users to discuss details and get quick answers before booking.",
+      footerLink: [
+        // {
+        //   name: "PlayStore",
+        //   url: "https://play.google.com/store/apps/details?id=androidclockwidget.analogclockwidget.androiddigitalclockwidget&hl=en_IN&gl=US"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/icanstudioz_logo.jpeg"),
+      projectName: "Sticker App ",
+      projectDesc: "This app lets users create and customize their own stickers for WhatsApp. Users can design unique stickers, add them to WhatsApp as a sticker pack, and share with friends. It’s easy to use and makes messaging more fun and personal!",
+      footerLink: [
+        // {
+        //   name: "PlayStore",
+        //   url: "https://play.google.com/store/apps/details?id=androidclockwidget.analogclockwidget.androiddigitalclockwidget&hl=en_IN&gl=US"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
+    
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
@@ -281,6 +405,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  myOfficeProjects,
   contactInfo,
   isHireable
 };

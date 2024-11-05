@@ -4,7 +4,9 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
+import OfficeProjects from "./officeProjects /OfficeProjects"
 import StartupProject from "./StartupProjects/StartupProject";
+import OfficeStartupProject from "./OfficeStartupProjects/OfficeStartupProject"
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
 import ScrollToTopButton from "./topbutton/Top";
@@ -50,7 +52,9 @@ const Main = () => {
             <Education />
             <WorkExperience />
             <Projects />
+            <OfficeProjects/>
             <StartupProject />
+            <OfficeStartupProject />
             <Profile />
             <Footer />
             <ScrollToTopButton />
